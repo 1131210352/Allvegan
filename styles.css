@@ -1,0 +1,792 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+        /* Header */
+header{
+    background-image: url(images/fondo_menu.jpg);
+}
+
+h1{
+    font-size: 0;
+    background:transparent url(images/logo.png) no-repeat left center;
+    height: 3.5rem;
+   line-height: 1em;
+}
+#menu {
+    text-transform: uppercase;
+    height: 50%;
+    position: absolute; 
+    z-index: 99;
+    top: 3em;
+    text-align: center;
+    background-image: url(images/fondo_menu.jpg);
+    display: none;
+    width: 100%;
+    padding-top: 3em;
+
+}
+
+#burger li{
+    position: absolute;
+    top: 0;
+    right: 0;
+    list-style: none;
+}
+
+#burger li a {
+    background: transparent url(images/menu.png) no-repeat center;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    background-size: cover;
+    
+}
+
+#menu, #cerrar{
+    display: none;
+}
+
+#anclanav:target #menu{
+    display: block;
+}
+
+#anclanav:target #abrir{
+    display: none;
+}
+#anclanav:target #cerrar{
+    display: block;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #00681b;
+    font-size: 2em;
+    line-height: 2em;
+    text-align: right;
+}
+
+#menu li {
+    width: 90%;
+    text-align: right;
+    list-style: none;
+}
+
+
+    /* Banner */
+
+picture img{
+    max-width: 100%;
+    position: absolute;
+    left:0;
+    top: 3.87em;
+    z-index: -1;
+}
+
+#banner{
+    height: 30vh;
+}
+
+ .secbanner{
+        width: 55%;
+        top: 0;
+     }
+
+#banner > p {
+    padding-left: 0.55em;
+    font-family: agenda-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+#banner > a {
+    background: #ff987d;
+    border-radius: 10px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0.3em;
+    font-size: 0.5;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: auto;
+    margin-left: 41px;
+}
+
+  /*main*/
+main{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+
+}
+ 
+h2, h3{
+   font-family: new-spirit, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #00681b;
+    text-transform: uppercase;
+    padding-top: 6%; 
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#SV{
+    text-transform: uppercase;
+    color: #00681b;
+    text-align: center;
+    margin-top: 5vw;
+    }
+p{
+    margin: 1em 0;
+    font-family: agenda-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+.razones{
+    width: 85%;
+    height: 50vmax;;
+    margin-left: 7.5%;
+    border: solid 1px orange ;
+    border-radius: 0.5em;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    text-align: center;
+}
+
+#animales, #salud{
+    display: none;
+}
+
+#animales:target,
+#salud:target,
+#planeta:target{
+    display: block;
+}
+#secRaz li a {
+    width: 30px;
+    display: inline-block;
+    height: 30px; 
+    font-size: 0;
+    background: url(images/des.png) no-repeat;
+   
+}
+#secRaz li a:hover{
+    background: url(images/des_hover.png) no-repeat;
+}
+
+#secRaz li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 26em;
+}
+
+.razones img{
+    height: 170px;;
+}
+
+.alimentacion{
+    width: 85%;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+}
+
+#semillas, #cereales{
+    display: none;
+}
+
+#semillas:target{
+    display: block;
+}
+
+#fruta:target{
+    display: block;
+}
+
+
+#cereales:target{
+    display: block;
+}
+
+section ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 19em;
+}
+
+ #secAli li a {
+    width: 30px;
+    display: inline-block;
+    height: 30px; 
+    font-size: 0;
+    background: url(images/des.png) no-repeat;
+   
+}
+#secAli li a:hover{
+    background: url(images/des_hover.png) no-repeat;
+}
+
+
+
+#recetaSalada {
+    height: 8em;
+    margin: 2em -5%;
+    padding: 2em 0.6em;
+    text-align: left;
+    background: url(images/recetas_salada.png) no-repeat top right;
+}
+
+#recetaDulce {
+    height: 8em;
+    margin: 2em -5%;
+    padding: 2em 0.6em;
+    text-align: left;
+    background: url(images/recetas_dulces.png) no-repeat top right;
+}
+
+
+.recetasD, .recetasS {
+    width: 75%;
+    height: 21em;
+    margin-left: 12.5%;
+    border: solid 1px orange;
+    position: absolute;
+    background-color: white;
+    left: 0;
+}
+
+
+#choclo , #brocoli,
+#pastelitos , #galleta
+{
+    display: none;
+}
+
+#choclo:target,
+#brocoli:target,
+#tarta:target,
+#galleta:target,
+#pastelitos:target,
+#vasito:target
+{
+    display: block;
+}
+
+#secSal li a,  #secDul li a {
+    width: 30px;
+    display: inline-block;
+    height: 30px; 
+    font-size: 0;
+    background: url(images/des.png) no-repeat;
+}
+#secSal li a:hover, #secDul li a:hover{
+    background: url(images/des_hover.png) no-repeat;
+}
+
+#secDul li,#secSal li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 21em ;
+    
+}
+
+article a{
+    background-color: #ff987d;
+    border: solid 2px black;
+    border-radius: 1em;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercases;
+    margin: 3em 33%;
+}
+
+h3{
+    margin-bottom: 8%;
+width: 90%;
+margin-left: 5%;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul#secDul,
+ul#secAli,
+ul#secRaz,
+ul#secSal
+ {
+    text-align: center;
+}
+
+#video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+    }
+    
+    #video iframe,
+    #video object,
+    #video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+#avideo{
+    margin-left: 33%;
+    margin-top: 2em;
+    background-color: #ff987d;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#red2 , #red3{
+    display: none;
+}
+
+
+#red2:target{
+    display: block;
+}
+
+
+
+#red3:target{
+    display: block;
+}
+
+#red1:target{
+    display: block;
+}
+#redes li a {
+    width: 30px;
+    display: inline-block;
+    height: 30px; 
+    font-size: 0;
+    background: url(images/des.png) no-repeat;
+}
+#redes li a:hover{
+    background: url(images/des_hover.png) no-repeat;
+}
+
+#redes {
+    margin-left: 37%;
+    margin-top: 30.5em;
+}
+
+#redes li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;   
+}
+
+.redesSociales{
+    position: absolute;
+    width: 75%;
+    height: 50%;
+    margin-left: 11%;
+    border-radius: 0.5em;
+
+    background-color: white;
+    left: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-family: agenda-condensed;
+    font-size: 2em;
+    background-color: white;
+}
+
+
+/* form */
+    
+#form{
+    height: 32em;
+    border: solid 0.2em #f5bcab;
+    border-radius: 2em;
+    margin-top: 2em;
+    background: #ffeee4;
+    margin-left: 10%;
+    color: #29912e;
+    width: 80%;
+}
+
+#form p{
+    margin-top: 2em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form span {
+    text-transform: uppercase;
+    padding-left: 1em;    
+
+}
+textarea , input{
+    margin: 1em;
+    width: 90%;
+    padding-left: 1em;
+}
+
+#suscribite{
+
+    background: url("images/fondo_link.png") no-repeat center ;
+    border: none;
+    height: 2em;
+    color: white;
+    padding: 0;
+}
+
+/* footer */
+footer{
+    margin-top: 2em;
+    padding: 5% 0;
+    background: url(images/fondo_menu.jpg);
+    
+    
+}
+
+#navfooter{
+
+    background: url("images/logo_f.png")  no-repeat center top ;
+    padding-top: 5em;
+    margin: 0 5%;
+}
+
+#navfooter li  { 
+    width:30%;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    font-family: bely-display, sans-serif;
+    text-transform: uppercase;
+    margin: 0.5em 0 ;
+}
+#navfooter li a {
+    text-decoration: none;
+    color: #00681b;
+}
+
+summary{
+    color:#00681b;
+    text-align: center;
+    margin-top: 1em;
+}
+
+div ul li{
+    color: #00681b;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footerRedes li{
+    display: inline-block;
+}
+
+#footerRedes {
+    text-align: center;
+}
+
+#fb{
+    background: url(images/facebook-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+#yt{
+    background: url(images/youtube-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+#insta{
+    background: url(images/instagram-m.png) no-repeat center;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+
+/* tablet */
+
+@media screen and (min-width: 481px) and (max-width: 800px){
+   
+
+
+    h2{
+        font-size: 2.1rem;
+        
+    }   
+    
+    #SV{
+        margin-top: 20%;
+    }
+    #banner > p
+    {
+        font-size: 1.5em;
+        padding-left: 1.55em;
+        margin-top: -1.6em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    .razones{
+        height: 28vmax;
+        width: 90%;
+        margin-left: 4.5%;
+    }
+
+    .razones img,
+    .alimentacion img{
+        display: block;
+    }
+
+
+    .razones > h3{
+        position: absolute;
+        top: -1em;
+        left: 9em;
+        
+    }
+
+    .razones p,
+    .alimentacion p{
+       
+        position: absolute;
+        width: 60%;
+        left: 7em;
+        top: 0.5em;
+        text-align: left;
+        margin: 1.5em 0;
+    }
+
+    .alimentacion{
+        height: 22vmax;
+    }
+
+    .alimentacion img{
+        display: block;
+    }
+    #secRaz li{
+        margin: 16em 1.5em 0 1.5em;
+    }
+
+    #secAli li{
+        margin: 13em 1.5em 0 1.5em;
+    }
+
+    #recetaSalada{
+        background: url(images/recetas_salada_t.png) no-repeat top right;
+    }
+    
+    #recetaDulce{
+        background: url(images/recetas_dulces_t.png) no-repeat top right;
+    }
+    .recetasD, .recetasS {
+        border: none;
+        text-align: center;
+    }
+
+    .recetasD h3, .recetasS h3{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+   #secDul li , #secSal li{
+    margin: 26em 1.5em 0 1.5em;
+   }
+    
+    section#secRedes {
+        text-align: center;
+    }
+    #redes li {
+        margin-top: 3em;
+    }
+
+    #redes{
+        margin-left: 0;
+    }
+
+    #form{
+        height: 35em;
+        margin-top: 6em;
+    }
+
+    input{
+        height: 2em;
+    }
+} 
+
+/*pc*/
+
+ @media screen and (min-width: 801px){
+    
+
+    #burger{
+        display: none;
+    }
+
+    #menu{
+        display: flex;
+        position: absolute;
+        top: -34px;
+        padding-top: 3em;
+        background-image: none;
+        left: 40%;
+        width: 49%;
+    }
+
+    #menu li a{
+        font-size: 1em;
+        line-height: 0;
+    }
+
+    #menu li{
+        text-align: center;
+
+    }
+    #main, #pc
+    {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    picture img{
+        top: 3.3em;
+        left: 9.93em;
+    }
+
+    #banner{
+        height: 46vh;
+    }
+
+    #banner h2{
+        text-align: left;
+        font-size: 3em;
+    }
+
+    #banner p{
+        font-size: 1.5rem;
+    }
+
+    #seccion1 p{
+            font-size: 1.2em;
+            line-height: 1em;
+            padding: 0 20px;
+            text-align: justify;
+            vertical-align: top;  
+    }
+
+    #SV, h2{
+        font-size: 2.3em;
+    }
+
+    #SV{
+        margin-top: 0;
+    }
+
+    #motivos{
+        display: flex;
+    }
+    .razones{
+        
+        position: initial;
+        height: 63vh;
+        border: none;
+        margin-right: 3%;
+    }
+
+    #animales, #salud{
+        display: block;
+    }
+
+    #semillas, #cereales{
+        display: block;
+    }
+    
+    .alimentacion{
+        
+        position: initial;
+        height: 50vh;
+        border: none;
+        margin-right: 3%;
+    }
+
+    #secRaz li{
+        display: none;
+    }
+
+    .li3{
+        display: none;
+    }
+
+    #alimentacionT,
+    #RSdiv,
+    #RDdiv ,
+    #RedesDiv{
+        display: flex;
+    }
+    
+    #recetaSalada{
+        background: url(images/recetas_salada_p.png) no-repeat top right;
+    }
+    
+    #recetaDulce{
+        background: url(images/recetas_dulces_P.png) no-repeat top right;
+    }
+
+    h2 br {
+        display: none;
+
+    }
+
+    #brocoli, #choclo,
+    #pastelitos, #galleta,
+    #red2, #red3{
+        display: block;
+    }
+    
+    .recetasS,
+    .recetasD,
+    .redesSociales{
+        
+        position: initial;
+        height: 50vh;
+        border: none;
+        margin-right: 3%;
+    }
+
+    #secSal li,
+    #secDul li,
+    #redes li{
+        display: none;
+    }
+
+    #redes{
+        margin-top: 0;
+    }
+}
