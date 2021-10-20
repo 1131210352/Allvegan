@@ -17,7 +17,6 @@ h1{
 }
 #menu {
     text-transform: uppercase;
-    height: 50%;
     position: absolute; 
     z-index: 99;
     top: 3em;
@@ -154,7 +153,6 @@ p{
 
 .razones{
     width: 85%;
-    height: 50vmax;;
     margin-left: 7.5%;
     border: solid 1px orange ;
     border-radius: 0.5em;
@@ -258,9 +256,7 @@ section ul li {
 
 .recetasD, .recetasS {
     width: 75%;
-    height: 21em;
     margin-left: 12.5%;
-    border: solid 1px orange;
     position: absolute;
     background-color: white;
     left: 0;
@@ -303,13 +299,11 @@ section ul li {
 
 article a{
     background-color: #ff987d;
-    border: solid 2px black;
     border-radius: 1em;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
-    text-transform: uppercases;
-    margin: 3em 33%;
+    padding: 0.5em;
+    margin: 0 37%;
 }
 
 h3{
@@ -389,7 +383,7 @@ ul#secSal
 
 #redes {
     margin-left: 37%;
-    margin-top: 30.5em;
+    margin-top: 33.5em;
 }
 
 #redes li {
@@ -420,7 +414,7 @@ figcaption {
 /* form */
     
 #form{
-    height: 32em;
+    height: 36em;
     border: solid 0.2em #f5bcab;
     border-radius: 2em;
     margin-top: 2em;
@@ -441,6 +435,12 @@ form span {
     padding-left: 1em;    
 
 }
+ 
+input{
+    padding: 0.5em; 
+    border-radius: 50px;
+}
+
 textarea , input{
     margin: 1em;
     width: 90%;
