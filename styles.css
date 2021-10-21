@@ -768,6 +768,11 @@ div ul li{
     }
     
     .recetasS,
+    .recetasD{
+        margin-left:0 ;
+    }
+
+    .recetasS,
     .recetasD,
     .redesSociales{
         
