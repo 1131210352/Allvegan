@@ -1,6 +1,6 @@
 <?php
 $enviaPara = 'gabriel.leszczuk@davinci.edu.ar'; 
-$subject = 'Contacto desde la web'; 
+$subject = 'Contacto desde la web All Vegan'; 
 
 $enviado="enviado.html";
 
