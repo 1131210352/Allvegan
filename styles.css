@@ -712,7 +712,6 @@ div ul li{
     .razones{
         
         position: initial;
-        height: 63vh;
         border: none;
         margin-right: 3%;
     }
@@ -728,7 +727,6 @@ div ul li{
     .alimentacion{
         
         position: initial;
-        height: 50vh;
         border: none;
         margin-right: 3%;
     }
@@ -750,10 +748,12 @@ div ul li{
     
     #recetaSalada{
         background: url(images/recetas_salada_p.png) no-repeat top right;
+        height: 0;
     }
     
     #recetaDulce{
         background: url(images/recetas_dulces_P.png) no-repeat top right;
+        height: 0;
     }
 
     h2 br {
@@ -777,7 +777,6 @@ div ul li{
     .redesSociales{
         
         position: initial;
-        height: 50vh;
         border: none;
         margin-right: 3%;
     }
@@ -791,4 +790,9 @@ div ul li{
     #redes{
         margin-top: 0;
     }
+
+    .redesSociales{
+        margin-left: 0  ;
+    }
+
 }

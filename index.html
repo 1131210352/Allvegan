@@ -257,7 +257,7 @@
             Suscribite a nuestro newsletter y recibi todas 
             nuestras noticias semanalmente
         </p>
-            <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
+            <form action="enviar_formulario.php" method="post" enctype="application/x-www-form-urlencoded">
                 <span> Nombre:</span>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
                 
@@ -277,7 +277,7 @@
                         </datalist>
 
                 <textarea name="comentario" id="comentario" cols="4" rows="6
-                " placeholder="Ingrese su comentario..." > </textarea>
+                " placeholder="Ingrese su comentario..." ></textarea>
 
                     <input type="submit" value="Suscribite" id="suscribite"/>
             </form>
