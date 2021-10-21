@@ -154,8 +154,6 @@ p{
 .razones{
     width: 85%;
     margin-left: 7.5%;
-    border: solid 1px orange ;
-    border-radius: 0.5em;
     position: absolute;
     background-color: white;
     left: 0;
@@ -303,7 +301,7 @@ article a{
     text-decoration: none;
     text-align: center;
     padding: 0.5em;
-    margin: 0 37%;
+    margin-left:37%;
 }
 
 h3{
@@ -414,7 +412,7 @@ figcaption {
 /* form */
     
 #form{
-    height: 36em;
+    height: 43em;
     border: solid 0.2em #f5bcab;
     border-radius: 2em;
     margin-top: 2em;
@@ -426,7 +424,7 @@ figcaption {
 
 #form p{
     margin-top: 2em;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-align: center;
 }
 
@@ -437,7 +435,7 @@ form span {
 }
  
 input{
-    padding: 0.5em; 
+    padding: 0.75em; 
     border-radius: 50px;
 }
 
@@ -459,7 +457,6 @@ textarea , input{
 /* footer */
 footer{
     margin-top: 2em;
-    padding: 5% 0;
     background: url(images/fondo_menu.jpg);
     
     
@@ -468,8 +465,8 @@ footer{
 #navfooter{
 
     background: url("images/logo_f.png")  no-repeat center top ;
-    padding-top: 5em;
-    margin: 0 5%;
+    padding-top: 7em;
+    text-align: center;
 }
 
 #navfooter li  { 
