@@ -2,6 +2,7 @@
 $enviaPara = 'gabriel.leszczuk@davinci.edu.ar'; 
 $subject = 'Contacto desde la web'; 
 
+
 $enviado="enviado.html";
 
 $mensaje = '';

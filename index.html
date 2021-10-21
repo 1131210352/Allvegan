@@ -260,16 +260,16 @@
             nuestras noticias semanalmente
         </p>
             <form action="enviar_formulario.php" method="post" enctype="multipart/form-data">
-                <span> Nombre:</span>
+                <label>Nombre:</label> 
                     <input type="text" name="nombre" placeholder="Ingrese su nombre" required/>
                 
-                <span> Apellido:</span>
+                <label>Apellido:</label> 
                     <input type="text" name="apellido" placeholder="Ingrese su apellido" required />
                 
-                <span>Email:</span>
+                <label>Email</label> 
                     <input type="email" name="email" placeholder="Ingrese su email" required />
                 
-                <span>Escribe tu interes</span>
+                <label>Intereses</label> 
                     <input list="interes" name="list" placeholder="Recetas/Noticias/Infomación"/>
                         <datalist id="interes">
                             <option label="Recetas" value="Recetas">
@@ -279,9 +279,9 @@
                         </datalist>
 
                 <textarea name="comentario" id="comentario" cols="4" rows="6
-                " placeholder="Ingrese su comentario..." > </textarea>
+                " placeholder="Ingrese su comentario..." ></textarea>
 
-                    <input type="submit" value="Suscribite" id="suscribite"/>
+                    <input type="submit" value="Suscribite" id="suscribite"  />
             </form>
     </aside>
 </div>

@@ -445,6 +445,10 @@ textarea , input{
     padding-left: 1em;
 }
 
+textarea{
+    resize: none;
+}
+
 #suscribite{
 
     background: url("images/fondo_link.png") no-repeat center ;
@@ -761,10 +765,12 @@ div ul li{
     
     #recetaSalada{
         background: url(images/recetas_salada_p.png) no-repeat top right;
+        height: 0;
     }
     
     #recetaDulce{
         background: url(images/recetas_dulces_P.png) no-repeat top right;
+        height: 0;
     }
 
     h2 br {
@@ -799,4 +805,10 @@ div ul li{
     #redes{
         margin-top: 0;
     }
+
+    .redesSociales{
+        margin-left: 0  ;
+    }
+
+    
 }
